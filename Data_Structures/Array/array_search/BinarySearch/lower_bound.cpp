@@ -36,7 +36,14 @@ int main()
 
     vector<int> arr = {3, 5, 8, 15, 19};
 
-    cout << lowerBound(arr, n, x) << endl;
+    cout << lowerBound(arr, n, x) << " lower bound of x using custom function" << endl;
+
+    // lower bound as inbuilt function
+
+    cout << lower_bound(arr.begin(), arr.end(), x) - arr.begin() << " lower bound of x using in-built function" << endl;
+
+    // in the case of array we use lower_bound(arr, arr+n);
+    // and if we want to find the lower bound in the pericular range than use the lower_bound(arr+2, arr+7); //range 2 to 6
 
     return 0;
 }

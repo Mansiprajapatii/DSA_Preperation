@@ -25,7 +25,7 @@ vector < int > sortedArray(vector < int > a, vector < int > b) {
      ans.push_back(it);
    }
 
-   return ans;
+   return ans;  
 }
 
 int main(){

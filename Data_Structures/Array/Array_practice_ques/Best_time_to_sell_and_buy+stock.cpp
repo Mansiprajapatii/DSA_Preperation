@@ -11,8 +11,6 @@ int bestTimeToBuyAndSellStock(vector<int>&price) {
         int cost = price[i] - mini;
         maxPro = max(maxPro,cost);
         mini = min(mini,price[i]);
-
     }
-
     return maxPro;
 }

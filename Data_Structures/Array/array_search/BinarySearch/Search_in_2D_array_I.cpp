@@ -2,24 +2,28 @@
 
 using namespace std;
 
-bool searchMatrix(vector<vector<int>>& mat, int target) {
-     int n = mat.size();
-     int m = mat[0].size();
-     
-     int low = 0;
-     int high = (n*m) - 1;
+bool searchMatrix(vector<vector<int>> &mat, int target)
+{
+    int n = mat.size();
+    int m = mat[0].size();
 
-     while(low<=high){
-         int mid = low + (high-low) / 2;
-         int ele = mat[mid/m][mid%m];
+    int low = 0;
+    int high = (n * m) - 1;
 
-         if(ele == target) return true;
+    while (low <= high)
+    {
+        int mid = low + (high - low) / 2;
+        int ele = mat[mid / m][mid % m];
 
-         if(ele < target) low = mid+1;
+        if (ele == target)
+            return true;
 
-         else high = mid-1;
+        if (ele < target)
+            low = mid + 1;
 
-     }   
+        else
+            high = mid - 1;
+    }
 
-     return false;
+    return false;
 }

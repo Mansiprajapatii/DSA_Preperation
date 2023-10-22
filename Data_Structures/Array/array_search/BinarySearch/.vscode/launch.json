@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/91704/OneDrive/Desktop/college/self/DSA_in_Cpp/Data_Structures/Stack",
-      "program": "c:/Users/91704/OneDrive/Desktop/college/self/DSA_in_Cpp/Data_Structures/Stack/build/Debug/outDebug",
+      "cwd": "c:/Users/91704/OneDrive/Desktop/college/self/DSA_in_Cpp/Data_Structures/Array/array_search/BinarySearch",
+      "program": "c:/Users/91704/OneDrive/Desktop/college/self/DSA_in_Cpp/Data_Structures/Array/array_search/BinarySearch/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

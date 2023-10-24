@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
  int lengthOfLongestSubstring(string s) {
         vector<int> mapp(256,-1);
         int left =0, right=0;

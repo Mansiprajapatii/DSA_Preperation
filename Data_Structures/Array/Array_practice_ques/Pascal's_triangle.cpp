@@ -5,6 +5,8 @@ using namespace std;
 
 // solved using dp
 
+// PASCAL TRIANGLE
+
 vector<int> generateRow(int n)
 {
 

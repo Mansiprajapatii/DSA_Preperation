@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/91704/OneDrive/Desktop/college/self/DSA_in_Cpp/Sliding_window",
-      "program": "c:/Users/91704/OneDrive/Desktop/college/self/DSA_in_Cpp/Sliding_window/build/Debug/outDebug",
+      "cwd": "c:/Users/91704/OneDrive/Desktop/college/self/DSA_in_Cpp/Data_Structures/Binary_tree",
+      "program": "c:/Users/91704/OneDrive/Desktop/college/self/DSA_in_Cpp/Data_Structures/Binary_tree/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

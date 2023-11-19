@@ -39,3 +39,11 @@ private:
         return 1 + max(lh, rh);
     }
 };
+
+int main()
+{
+
+    int a = 0;
+
+    return 0;
+}

@@ -28,3 +28,12 @@ public:
 
         return max(leftsum, rightsum) + (root->val);
     }
+
+    int maxPathSum(TreeNode *root)
+    {
+        int maxi = INT_MIN;
+
+        maxpathdown(root, maxi);
+
+        return maxi;
+    }
